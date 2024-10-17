@@ -1,0 +1,24 @@
+.outterDiv{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.card{
+    height: 350px;
+    width: 300px;
+    box-shadow: 0px 10px 10px 0px gray;
+    border-radius: 20px;
+    margin: 40px;
+}
+
+.card > img{
+    height: 250px;
+    width: 300px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.card > h1{
+    text-align: center;
+}
